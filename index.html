@@ -2,30 +2,278 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Talentoday: Solutions d'analyse des données au service de la réussite professionnelle</title>
+	<meta name="description" content="Évaluez votre personnalité grâce à notre test déjà utilisé par plus de 3 millions de personnes dans 160 pays. Découvrez ce qui vous rend unique et recevez des conseils de carrière basé sur les données.">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/application.css">
 </head>
 <body>
 	<div id="wrapper">
-		<header>
-			<div id="logo"><img src="" alt=""></div>
-			<h1></h1>
-			<nav>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
+		<header class="header">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+
+			    <a class="navbar-brand" href="#"><img src="https://assets-talentoday.s3.amazonaws.com/production/business/header/talentoday_logo-a4c24b535dc7800df4dad9e8649f63bc.svg"></a>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="dropdown active hide-on-medium">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="glyphicon glyphicon-menu-down"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			          </ul>
+			        </li>
+			        <li class="dropdown hide-on-medium">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us <span class="glyphicon glyphicon-menu-down"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			          </ul>
+			        </li>
+			        <li class="hide-on-medium"><a href="#">Request demo</a></li>
+			        <li><a href="#">Sign up</a></li>
+			        <li><a href="#">Log in</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+
+			<div class="container header__content">
+				<div class="row">
+					<div class="column col-md-6 header__content__text">
+						<h1>TALENTODAY MANAGER</h1>
+						<h2>Speed up your recruiting process and make data driven decisions</h2>
+						<a href=""><button class="btn btn--skyblue">Start your 15-day trial</button></a>
+					</div>
+					<div class="column col-md-6 header__content__img">
+						<img src="img/header_macbook.png" alt="Talentoday Manager Web App">
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="main">
+
+			<nav class="navbar navbar-default main__nav">
+				<ul class="nav navbar-nav">
+					<li class=""><a href="">FEATURES</a></li>
+					<li class="active"><a href="">PRICING</a></li>
 				</ul>
 			</nav>
-		</header>
-		<div id="body">
-			<header>
-				<h2></h2>
-				<p></p>
-			</header>
+
+			<div class="main__content">
+				<div class="text-center main__content__offers">
+					<div class="col-xs-4">
+						<div class="main__content__offers__offer">
+							<h5>Basic</h5>
+							<h3><sup class="hide-on-medium">$ </sup>99<sub class="hide-on-medium"> /month</sub></h3>
+							<h6 class="hide-on-large">$ /month</h6>
+							<p>The entry-level toolset for independent professionals</p>
+							<button class="btn btn--marine">Try it now</button>
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="main__content__offers__offer">
+							<h5>Basic</h5>
+							<h3><sup class="hide-on-medium">$ </sup>99<sub class="hide-on-medium"> /month</sub></h3>
+							<h6 class="hide-on-large">$ /month</h6>
+							<p>The entry-level toolset for independent professionals</p>
+							<button class="btn btn--turquoise">Try it now</button>	
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="main__content__offers__offer">
+							<h5>Basic</h5>
+							<h3><sup class="hide-on-medium">$ </sup>99<sub class="hide-on-medium"> /month</sub></h3>
+							<h6 class="hide-on-large">$ /month</h6>
+							<p>The entry-level toolset for independent professionals</p>
+							<button class="btn btn--green">Contact us</button>
+						</div>
+					</div>
+				</div>
+				<div class="main__content__details">
+			        <div class="details__title">
+			          <div class="left-column">
+			            Tarifs
+			          </div>
+			          <div class="basic-column basic-icon">
+			            <p>Basique</p>
+			          </div>
+			          <div class="basic-column premium-icon">
+			            <p>Premium</p>
+			          </div>
+			          <div class="basic-column enterprise-icon">
+			            <p>Entreprise</p>
+			          </div>
+			        </div>
+			        <div class="details__row">
+			          <div class="left-column">
+			            <p>
+			              <span class="short">
+			                Facturation mensuelle (€/mois)
+			              </span>
+			              <span class="long">
+			                Facturation mensuelle
+			              </span>
+			            </p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">119</span>
+			              <span class="long">119 €/mois</span>
+			            </p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">179</span>
+			              <span class="long">
+			                179 €/mois
+			              </span>
+			            </p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">359</span>
+			              <span class="long">
+			                359 €/mois
+			              </span>
+			            </p>
+			          </div>
+			        </div>
+			        <div class="details__row">
+			          <div class="left-column">
+			            <p>Counselors</p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">1</span>
+			              <span class="long">
+			                1 counselor
+			              </span>
+			            </p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">2</span>
+			              <span class="long">
+			                2 counselors
+			              </span>
+			            </p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">5</span>
+			              <span class="long">
+			                5 counselors
+			              </span>
+			            </p>
+			          </div>
+			        </div>
+			        <div class="details__row">
+			          <div class="left-column">
+			            <p>
+			              <span class="short">
+			                Counselors additionnels (€/mois)
+			              </span>
+			              <span class="long">
+			                Counselors additionnels
+			              </span>
+			            </p>
+			          </div>
+			          <div class="basic-column">
+			            <p>-</p>
+			          </div>
+			          <div class="basic-column">
+			          	<p>-</p>
+			          </div>
+			          <div class="basic-column">
+			            <p>
+			              <span class="short">99</span>
+			              <span class="long">
+			                99 €/counselor
+			              </span>
+			            </p>
+			          </div>
+			        </div>
+
+			        <div class="details__row hide-on-medium">
+			          <div class="left-column">
+			          </div>
+			          <div class="basic-column">
+						<button class="btn btn--marine">Try it now</button>
+			          </div>
+			          <div class="basic-column">
+						<button class="btn btn--turquoise">Try it now</button>
+			          </div>
+			          <div class="basic-column">
+						<button class="btn btn--green">Contact us</button>
+			          </div>
+			        </div>
+
+			        <div class="hide-on-large details__trial-btn">
+			        	<button class="btn btn--marine">Start your 15-day trial</button>
+			        </div>
+				</div>
+			</div>
+			
 		</div>
-		<footer>
-			<p></p>
+
+		<footer class="footer">
+			<div class="footer__language hide-on-large">
+				<div class="container">
+					<h5 class="text-center">CHANGE LANGUAGE</h5>
+					<div class="row">
+						<p class="col-xs-3">English</p>
+						<p class="col-xs-3">Français</p>
+						<p class="col-xs-3">Espanol</p>
+						<p class="col-xs-3">Portugues</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="footer__box">
+					<h5>PRODUCTS</h5>
+					<p>Talent Manager</p>
+					<p>Certification</p>
+					<p>Request Demo</p>
+					<p>Pricing</p>
+				</div>
+				<div class="footer__box">
+					<h5>PRODUCTS</h5>
+					<p>Talent Manager</p>
+					<p>Certification</p>
+					<p>Request Demo</p>
+					<p>Pricing</p>
+				</div>
+				<div class="footer__box">
+					<h5>PRODUCTS</h5>
+					<p>Talent Manager</p>
+					<p>Certification</p>
+					<p>Request Demo</p>
+					<p>Pricing</p>
+				</div>
+				<div class="footer__box">
+					<h5>PRODUCTS</h5>
+					<p>Talent Manager</p>
+					<p>Certification</p>
+					<p>Request Demo</p>
+					<p>Pricing</p>
+				</div>
+				<div class="footer__box hide-on-medium">
+					<h5>PRODUCTS</h5>
+					<p>Talent Manager</p>
+					<p>Certification</p>
+					<p>Request Demo</p>
+					<p>Pricing</p>
+				</div>
+			</div>
 		</footer>
 	</div>
+
+<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
