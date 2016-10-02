@@ -1,0 +1,61 @@
+header {
+	background: linear-gradient(90deg, #3f99c7 0%, #54addc 10%, #62bbe6 50%, #54addc 90%, #3f99c7 100%);
+
+	.navbar-default {
+		margin: 0;
+		border: none;
+		background: none;
+
+		.navbar-brand {
+			img {
+				max-width: 140px;
+			}
+		}
+
+		.navbar-nav {
+			padding-top: 5px;
+
+			li {
+
+				a {
+					color: $white!important;
+					text-transform: uppercase;
+					background: none !important;
+
+					&:hover {
+						color: $white;
+					}
+				}
+
+				&.active {
+					a {
+						&:hover, &:active {
+							color: $white;
+						}
+					}
+				}
+
+			}
+		}
+
+
+// Disable bootstrap collapse behavior
+
+.navbar-collapse.collapse{
+  display: block !important;
+  border: none;
+}
+
+.navbar-nav>li, .navbar-nav{
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child{
+  margin-right: -15px !important;
+}
+
+.navbar-right{
+  float: right !important;
+}
+	}
+}

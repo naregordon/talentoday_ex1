@@ -1,0 +1,22 @@
+.btn {
+	color: $white;
+	font-size: 14px;
+	font-weight: 200;
+	padding: 8px 25px;
+
+	&--skyblue {
+		background: $skyblue;
+	}
+
+	&--marine {
+		background: $marine;
+	}
+
+	&--turquoise {
+		background: $turquoise;
+	}
+
+	&--green {
+		background: $green;
+	}
+}

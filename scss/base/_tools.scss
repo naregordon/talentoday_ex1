@@ -1,0 +1,22 @@
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hide-on-medium{
+	@media screen and (max-width: $break-medium) {
+		display:none!important;
+	}
+}
+
+.hide-on-large {
+	@media screen and (min-width: $break-medium) {
+		display:none!important;
+	}
+}
+
+.grey-box {
+	background-color: $grey-bg;
+    border: 1px solid #e7e7e7;
+}
