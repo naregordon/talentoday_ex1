@@ -36,22 +36,30 @@ header {
   header .navbar-default {
     margin: 0;
     border: none;
-    background: none; }
+    background: none;
+    padding-top: 15px; }
     header .navbar-default .navbar-brand img {
-      max-width: 140px; }
+      max-width: 165px; }
+      @media screen and (max-width: 992px) {
+        header .navbar-default .navbar-brand img {
+          max-width: 140px; } }
     header .navbar-default .navbar-nav {
       padding-top: 5px; }
       header .navbar-default .navbar-nav li a {
         color: #fff !important;
         text-transform: uppercase;
-        background: none !important; }
+        background: none !important;
+        font-weight: 400;
+        font-size: 13px;
+        margin-left: 20px; }
         header .navbar-default .navbar-nav li a:hover {
           color: #fff; }
       header .navbar-default .navbar-nav li.active a:hover, header .navbar-default .navbar-nav li.active a:active {
         color: #fff; }
     header .navbar-default .navbar-collapse.collapse {
       display: block !important;
-      border: none; }
+      border: none;
+      box-shadow: none; }
     header .navbar-default .navbar-nav > li, header .navbar-default .navbar-nav {
       float: left !important; }
     header .navbar-default .navbar-nav.navbar-right:last-child {
@@ -123,9 +131,11 @@ header {
         font-size: 25px; }
       .main__content__offers__offer h3 sub {
         font-size: 12px; }
-    @media screen and (max-width: 992px) {
-      .main__content__offers__offer p {
-        display: none; } }
+    .main__content__offers__offer p {
+      color: #b2b2b2; }
+      @media screen and (max-width: 992px) {
+        .main__content__offers__offer p {
+          display: none; } }
     .main__content__offers__offer button {
       margin: 20px 0; }
       @media screen and (max-width: 992px) {
